@@ -27,24 +27,29 @@ In the db folder we have the schema.sql file inorder to drop the techblog_db if 
 In the models folder we have blog.js, index.js and user.js files. 
 The blog.js requires sequelize and the class blog will initiate the id, name, disciption, date created, and the user id. the module will export to the blog. 
 Index.js will requir the user and the blog. the user can have as many blogs wantedm and the blog will belong to the user id. This will help the module to export to the user and the blog.
-Lastly, the user.js
+Lastly, the user.js requires bcrypt and sequelize. The user will ba able to check their password, create a new user, update password, and login. the user.js module must export to the user in order to save the information.
+
 ## public
 
-
+In the public folder we have an additional folder for css and js. in the css we have the jass,cs that will help normalize.css.v8.0.1 and we have the style.css that will help with the client view of the application.
+In the js folder, we have the login.js, logout.js, and the profile.js file. 
+In the login.js this file will help post the email and the password needed to log into the users account. the login.js will also assist the new members to sign up and save their name email and password. After the user signs up or puts in existing information then the user will submit the form.
+The logout.js file will help the user logout by clicking the logout button and bringing them back to the homepage.
 
 ## seeds
 
-
+Currently under construction
 
 ## utils
 
-
+In the utils folder it will allow us to authorize the user based on the login. 
 
 ## view
 
-
+Currently under construction
 
 ## server.js
 
+The server.js file requires path, express, express-sessions, express handlebars, and controllers. This will help link everything together in the public folder and will help listen to the different events. 
 
 ## deployed app
