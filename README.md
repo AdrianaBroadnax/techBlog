@@ -53,3 +53,7 @@ Currently under construction
 The server.js file requires path, express, express-sessions, express handlebars, and controllers. This will help link everything together in the public folder and will help listen to the different events. 
 
 ## deployed app
+
+https://adrianabroadnax.github.io/techBlog/
+https://github.com/AdrianaBroadnax/techBlog.git
+https://techhblog.herokuapp.com
